@@ -6,7 +6,7 @@ const wait = () => {
   setTimeout(() => {
     stopEl.src = "./img/stop-off.svg";
     walkEl.src = "./img/walk-on.svg";
-    console.log("Wait for 3 seconds");
+    console.log("Waited for 3 seconds");
   }, 3000);
 
   setTimeout(() => {
